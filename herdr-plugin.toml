@@ -1,0 +1,9 @@
+id = "codergeek121.herdr-continue"
+name = "Herdr Continue"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Sends 'continue' to every agent restored when Herdr's server boots back up"
+platforms = ["linux", "macos"]
+
+[[startup]]
+command = ["sh", "bin/continue.sh"]
